@@ -1,6 +1,6 @@
 class Vehiculo:
     def mover(self):
-        raise NotImplementedError("Este método debe ser sobrescrito por las subclases")
+        raise NotImplementedError
 
 class Coche(Vehiculo):
     def mover(self):
